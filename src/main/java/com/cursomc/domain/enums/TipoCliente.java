@@ -21,7 +21,7 @@ public enum TipoCliente {
         return descricao;
     }
 
-    public static TipoCliente toEnum(Integer id) throws IllegalAccessException {
+    public static TipoCliente toEnum(Integer id) {
         if (id == null) {
             return null;
         }
